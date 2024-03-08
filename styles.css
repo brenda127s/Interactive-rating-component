@@ -1,0 +1,146 @@
+@media only screen and (max-width: 375px) {
+    .rating-state {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+img.star-icon {
+    background: hsl(213, 19%, 18%);
+    padding: 10px;
+    border-radius: 50%;
+    align-self: self-start;
+    margin-bottom: 40px;
+    padding: 18px;
+}
+
+img.thank-you-pic {
+    margin: 20px auto; 
+    margin-bottom: 40px;
+}
+
+.rating-state {
+    background: linear-gradient(rgba(36, 41, 51, 255), rgba(23, 30, 40, 255));
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 200px auto;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 40px;
+    line-height: 1.5;
+}
+
+.thank-you-state {
+    background: linear-gradient(rgba(36, 41, 51, 255), rgba(23, 30, 40, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 200px auto;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 45px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+p.rate-selected {
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.rating-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    color: hsl(216, 12%, 54%);
+    background: hsl(213, 19%, 18%);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Overpass';
+    transition: 0.3s;
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Overpass';
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution p {
+font-size: 15px;
+}
