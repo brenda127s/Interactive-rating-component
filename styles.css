@@ -1,9 +1,13 @@
 @media only screen and (max-width: 375px) {
-    .rating-state {
-        margin-left: 20px;
-        margin-right: 20px;
+    .rating-state, .thank-you-state {
+        width: 400px;
     }
+}
 
+@media only screen and (max-width: 1440px) {
+    .rating-state, .thank-you-state {
+        width: 500px;
+    }
 }
 
 * {
